@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6v0013/v1
+canonical_location: https://kanripo.org/bkk/KR6v0013/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說金剛經纂
+  identifiers:
+    alt_id:
+    - W01n0012
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/ZW/ZW01/ZW01n0012.xml
+    old_id: ZW01n0012
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0013_000.yaml, hash: 'sha256:665720353dd45d372f4ed52745b662f7b0746893d7ba2a241c974d2572027640'}
+  - {seq: 1, filename: KR6v0013_001.yaml, hash: 'sha256:8f4362145bba13db49ff866949480178e25b5ea1bed6c2e3dcbc54f392d29986'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6v0013_000.markers.yaml, hash: 'sha256:1c9f9f1005008c22f12da7d4dc66726d3360e10caf482dc6e9f262e3f16778cd'}
+  - {seq: 1, role: markers, filename: assets/KR6v0013_001.markers.yaml, hash: 'sha256:a7ac8efb719a24f11c5057da90d0f24bc660a447aac933acf062c5be34358471'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6v0013_ZW_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 題解
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6v0013_ZW_000-mulu-2
+    span:
+    - front
+    - 732
+    - 732
+  label: 錄文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0013_ZW_001-juan-start
+    span:
+    - body
+    - 0
+    - 897
+  label: 佛說金剛經纂
+  type: juan
+  level: 1
+hash: sha256:d2a45a16f498a7e54b13ddcee45fa5d44690c0a21fa35b79f8bedd7272c22464
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: ZW
