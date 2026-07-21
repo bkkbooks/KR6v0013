@@ -16,17 +16,17 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 0, filename: KR6v0013_000.yaml, hash: 'sha256:7fae97b51ec5bdb04c05c5c7be2169562ab01b7ed0dd37296799481830982118'}
+  - {seq: 0, filename: KR6v0013_000.yaml, hash: 'sha256:4720240a65ff2f12b865c8e5ed0b29af3ab85dee974a9003ce085a221cd66d68'}
   - {seq: 1, filename: KR6v0013_001.yaml, hash: 'sha256:be4bed99c0249efaf6acb485ee073bbb78ba75f0346dd58bf3d867cd5a7434d7'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6v0013_000.markers.yaml, hash: 'sha256:ab969889e4b039ae2dece8ba11729bc030544905a8eb5936264f981d83e7229a'}
+  - {seq: 0, role: markers, filename: assets/KR6v0013_000.markers.yaml, hash: 'sha256:51f298d9d8d250ed3fa6cfb6163eeb527f2b5a546b289b10d2eaf1db18bae181'}
   - {seq: 1, role: markers, filename: assets/KR6v0013_001.markers.yaml, hash: 'sha256:528affd07aec4aa232e969e83b6e0d45170bba1a3df70ff9ce624570f41db498'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6v0013_ZW_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 題解
@@ -36,7 +36,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6v0013_ZW_000-mulu-2
     span:
-    - front
+    - body
     - 732
     - 732
   label: 錄文
@@ -52,7 +52,7 @@ table_of_contents:
   label: 佛說金剛經纂
   type: juan
   level: 1
-hash: sha256:76d9907d9bd62b0b3b5c127096c9c8b31e37356c15cbee816d4351a0e069c51e
+hash: sha256:0eda4e61e29dd0b53eda0eda0b6c93a21ed109b6fc2aece34955d37ea65f7dd8
 editions:
 - short: ZW
 mappings:
